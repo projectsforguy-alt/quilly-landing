@@ -18,9 +18,9 @@ const interTight = Inter_Tight({
 });
 
 export const metadata: Metadata = {
-	title: "Idee8 — Next.js + Notion Waitlist Template",
+	title: "Quilly - Magical, personalised children’s stories",
 	description:
-		"A simple Next.js waitlist template with Notion as CMS and Resend to send emails created with React Email and Upstash Redis for rate limiting. Deployed on Vercel.",
+		"An AI-powered story-telling hub. Create, publish and narrate stories for your loved ones.",
 };
 
 export default function RootLayout({
