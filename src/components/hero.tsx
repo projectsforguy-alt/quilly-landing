@@ -21,7 +21,7 @@ export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-lime-400" />
           </span>
           <p className="uppercase text-sm font-medium">
-            available in early {year}
+            available in early 2026
           </p>
         </div>
       </div>
@@ -31,8 +31,8 @@ export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
         </h2>
         <p className="text-base text-muted-foreground text-center max-w-md">
           {isSuccess
-            ? "You've successfully secured your spot.We’ll hit you up the moment it’s your turn to dive in"
-            : "Be among the first to experience the future of AI-powered productivity. Join the waitlist to get notified when we launch."}
+            ? "You've successfully registered your interest. We’ll reach out to you as soon as we're ready to hear your story"
+            : "Be among the first to experience the future of AI-powered story-telling. Join the waitlist to get notified when we launch."}
         </p>
       </div>
       <div className="flex flex-col items-center justify-center gap-2 w-full max-w-md">
