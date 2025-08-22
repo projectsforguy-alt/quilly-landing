@@ -27,7 +27,7 @@ export default function Hero({ waitlistPeople }: { waitlistPeople: number }) {
       </div>
       <div className="flex flex-col items-center justify-center gap-2 max-w-2xl">
         <h2 className="text-4xl font-bold text-foreground">
-          {isSuccess ? "You're on the waitlist" : "Get early Access"}
+          {isSuccess ? "You're on the waitlist" : "Be the first to use Quilly"}
         </h2>
         <p className="text-base text-muted-foreground text-center max-w-md">
           {isSuccess
